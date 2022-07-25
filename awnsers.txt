@@ -1,0 +1,36 @@
+ep1 
+
+The murderer is Miss Scarlet,
+miss scarlet is the string stored in the key murderer
+
+ep2
+
+will throw an error because murderer is declared as a const with a scope of the whole document and cannot be change by the function changeMurderer
+
+ep3
+
+will be both peacock and pr plum, first verdict is using the murderer within the declare murderer scope and the second verdict will use the murderer variable which has the scope of the whole page
+
+Ep4
+
+Although suspects will print out scarlet, plum and mustard the final log will print out suspect three being peacock because its never changed in the global scope
+
+Ep5 
+
+Verdict will print out revolver as when it is changed in the changeWeapon function it is done in a global scale not blocked within the function
+
+Ep6 
+In the plot twist murdered is declared globally meaning the verdict will equal mrs white 
+
+Ep7
+Verdict will result in miss scarlet being the murdered as its declared globally,
+Got this wrong now assuming that it is changing the let murder from the plot twist which is only stored locally not global like the murder =  mr. green
+
+Ep8
+Change scenario will set dining room as the key value of room
+Plot twist sets the murder to custard as room == dining room 
+And then that sets the weapon to candle stick 
+So outcome will be candle stick
+
+Ep9
+Murderer will be professor plum as the if statement has a let so it is only assigning that murderer localally
